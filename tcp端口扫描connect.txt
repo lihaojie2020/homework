@@ -15,7 +15,7 @@ def portScanner(host,port):
         lock.release()
         s.close()
     except:
-        pass
+        print("[+] %d is closed\n" % port)
 def main():
     setdefaulttimeout(1)
     IP=input('Input IP :')
@@ -41,3 +41,4 @@ def main():
 if __name__ == '__main__':
     main()
 ```
+
