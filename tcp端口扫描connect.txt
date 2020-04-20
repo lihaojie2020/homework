@@ -1,4 +1,3 @@
-```python
 from socket import *
 import threading
 lock = threading.Lock()
@@ -40,5 +39,3 @@ def main():
     print('[*] A total of %d open port ' % (openNum))
 if __name__ == '__main__':
     main()
-```
-
